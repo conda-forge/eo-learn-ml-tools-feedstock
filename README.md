@@ -5,11 +5,13 @@ Home: https://github.com/sentinel-hub/eo-learn
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/eo-learn-ml-tools-feedstock/blob/master/LICENSE.txt)
 
 Summary: A collection of Machine Learning utilities
 
+Development: https://github.com/sentinel-hub/eo-learn
 
+Documentation: https://pypi.org/project/eo-learn-ml-tools/
 
 Current build status
 ====================
