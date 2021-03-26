@@ -1,5 +1,5 @@
 {% set name = "eo-learn-ml-tools" %}
-{% set version = "0.8.0" %}
+{% set version = "0.9.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 83386e0e0528432dde3d82fe7630c2e0daf18413e21e8987557f35eab8abdb37
+  sha256: 2856dbf6c09656984b6c4f2728f3608b5c5273fc8c23c98dc4fb07901ba3dd66
 
 build:
   noarch: python
