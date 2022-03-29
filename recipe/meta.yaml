@@ -1,5 +1,5 @@
 {% set name = "eo-learn-ml-tools" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 68075fab57c7b332b5a4ba86b4dcc56ee3ff504a7f3544047f30463cd9500478
+  sha256: a27e0d62c52a4aba8053c0a4bcf731a470384ba53de2f63433da8170b9610494
 
 build:
   noarch: python
@@ -17,18 +17,17 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.5
+    - python >=3.7
   run:
-    - eo-learn-core
-    - matplotlib-base
-    - pandas
-    - python >=3.5
-    - scikit-image
-    - seaborn
+    - eo-learn-core >=1.0.0
+    - numpy
+    - python >=3.7
+    - shapely
 
 test:
   imports:
     - eolearn
+    - eolearn.core
     - eolearn.ml_tools
 
 about:
